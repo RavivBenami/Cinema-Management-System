@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #630000;
+  color: #eeebdd;
+}
+
+.content {
+  margin: 8%;
+  margin-top: 180px;
+  background-color: #eeebdd;
+  padding: 4rem 1rem 4rem 1rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+.signin-text {
+  font-style: normal;
+  font-weight: 600 !important;
+  color: #1b1717;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-color: #630000 !important;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 0px !important;
+  color: #1b1717;
+  height: auto;
+  border-radius: 0;
+  background-color: #eeebdd;
+  background-clip: padding-box;
+}
+
+.form-control:focus {
+  color: #630000;
+  background-color: #eeebdd;
+  border-color: #1b1717;
+  outline: 0;
+  box-shadow: none;
+}
+.btn-class {
+  border-color: #1b1717;
+  color: #1b1717;
+  margin: 4px;
+}
+.btn-class:hover {
+  background-color: #1b1717;
+  color: #fff;
+  box-shadow: 0 0 0 0;
+}
+.link {
+  color: #1b1717;
+}
+label {
+  color: #1b1717;
+}
+
+.link:hover {
+  color: #630000;
+}
+.input-class {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-color: #810000 !important;
+  padding: 3px !important;
+  color: #810000;
+  height: auto;
+  border-radius: 8px;
+  background-color: #eeebdd;
+  background-clip: padding-box;
+}
+.input-class:focus {
+  background-color: #eeebdd;
+  border-color: #810000;
+  outline: 0;
+  box-shadow: none;
+}
+.l-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  background-color: #eeebdd;
+  color: #630000;
+  width: 400px;
+  padding: 4rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  margin-top: 50px;
+}
+.form-title {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-size: x-large;
+}
+.form-div {
+  text-align: left;
+}
+.form-input {
+  width: 100%;
+}
+.container1{
+  background-color: #eeebdd;
+  color: #630000;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+  padding: 10px 10px;  
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.paginationBtns{
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.paginationBtns a {
+  padding: 13px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.paginationBtns a:hover {
+
+  color: black !important;
+  background-color: white;
+}
+.paginationActive a {
+
+  color: black !important;
+  background-color: white;
+}
