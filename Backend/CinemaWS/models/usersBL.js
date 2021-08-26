@@ -1,5 +1,5 @@
 const jfile = require('jsonfile')
-const path = '/Users/ravivbenami/Desktop/Full Stack Web/FinalProject1/Server/CinemaWS/json/users.json'
+const path = '/Users/ravivbenami/Desktop/FullStack/FinalProject-Cinema/Backend/CinemaWS/json/users.json'
 
 const getAllUsers = ()=>{
 

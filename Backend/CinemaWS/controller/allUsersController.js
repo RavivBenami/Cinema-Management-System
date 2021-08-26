@@ -9,9 +9,9 @@ appRouter.route('/').get(checkAuth,async(req,resp,next)=>{
     return resp.json(users)
 })
 
-
 appRouter.route('/:id').get(checkAuth,async(req,resp,next)=>{
     var id = req.params.id
+    console.log(id);
     var user = await allBL.getUserById(id)
     return resp.json(user)
 })

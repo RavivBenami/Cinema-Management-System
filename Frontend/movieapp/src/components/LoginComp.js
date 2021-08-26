@@ -13,7 +13,7 @@ function LoginComp(props) {
     };
 
     let login = await axios.post(`http://localhost:8080/dbUser/login`, user);
-    console.log(login.data);
+    console.log(login);
     if (login.data == "no user in sys") {
       alert("wrong username try again");
     }
